@@ -1,0 +1,154 @@
+.meal-form form {
+    width: 100%;
+}
+
+.meal-form .element-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meal-form .flex {
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+.meal-form .inputs {
+    width: 70%;
+}
+
+.meal-form .inputs label {
+    width: 160px;
+}
+
+.meal-form .inputs select {
+    width: 160px
+}
+
+.meal-form .image {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.meal-form .image img {
+    width: 100%;
+    height: auto;
+}
+
+.meal-form .image input[type="file"]  {
+    opacity: 0;
+    width: 1px;
+    bottom: -2px;
+    right: 50%;
+    position: absolute;
+}
+
+.meal-form .image .custom-file-upload {
+    z-index: 1;
+    text-align: center;
+    font-size: 14px;
+    width: 100px;
+    background-color: #f3f3f3;
+    border: 1px solid #000000;
+    display: inline-block;
+    padding: 1px 20px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.meal-form .image .custom-file-upload:hover {
+    background-color: #e0e0e0;
+}
+
+.meal-form .image .custom-file-upload:active {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+}
+
+.meal-form .submit-button {
+    display: flex;
+    margin: 4rem auto;
+}
+
+
+@media only screen and (max-width: 1300px) {
+  
+    .meal-form .inputs label {
+        width: 140px;
+    }
+    
+    .meal-form .inputs select {
+        width: 140px
+    }
+
+    .meal-form .inputs textarea {
+        width: 260px
+    }
+    
+    
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .meal-form .inputs label {
+        width: 100px;
+    }
+    
+    .meal-form .inputs select {
+        width: 160px
+    }
+
+    .meal-form .inputs textarea {
+        width: 220px
+    }
+    
+  }
+
+@media only screen and (max-width: 780px) {
+    
+    .meal-form .inputs label {
+        width: 160px;
+    }
+    
+    .meal-form .inputs select {
+        width: 160px
+    }
+
+    .meal-form .inputs textarea {
+        width: 180px
+    }
+    
+    
+    .meal-form .element-container {
+        flex-direction: column;
+    }
+    
+    .meal-form .flex {
+        flex-direction: column;
+    }
+
+    .meal-form .inputs, .meal-form .image {
+        width: 100%;
+    }
+
+}
+
+
+

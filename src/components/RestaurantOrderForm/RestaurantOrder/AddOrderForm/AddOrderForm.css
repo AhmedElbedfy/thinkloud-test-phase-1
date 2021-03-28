@@ -1,0 +1,97 @@
+.order-form form {
+    border: 1px solid #000;
+    padding: 20px;
+    margin-bottom: 2rem;
+    padding-bottom: 3rem;
+}
+
+.order-form .flex-container {
+    display: flex;
+}
+
+.order-form .left {
+    width: 45%;
+}
+
+.order-form .right {
+    width: 55%;
+}
+
+.order-form .flex {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.order-form .left input, .order-form .left select  {
+    width: 260px;
+}
+
+.order-form .left label{
+    width: 160px;
+}
+
+.order-form .right .price{
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 4rem;
+}
+
+.order-form form .primary-button {
+    float: right;
+}
+
+@media only screen and (max-width: 1600px) {
+  
+    .order-form .left input, .order-form .left select  {
+        width: 160px;
+    }
+        
+    .order-form .left label{
+        width: 120px;
+    }
+    
+  }
+
+@media only screen and (max-width: 1050px) {
+  
+    .order-form .left input, .order-form .left select  {
+        width: 120px;
+    }
+        
+    .order-form .left label{
+        width: 100px;
+    }
+
+    .order-form .left {
+        width: 55%;
+    }
+    
+    .order-form .right {
+        width: 45%;
+    }
+    
+    .order-form .right .price{
+        margin-bottom: 1.3rem;
+    }
+    
+    
+  }
+
+  
+@media only screen and (max-width: 550px) {
+    .order-form .flex-container {
+        flex-direction: column;    
+    }
+
+    .order-form .left {
+        width: auto;
+    }
+    
+    .order-form .right {
+        width: auto;
+    }
+
+    .order-form {
+        padding-bottom: 4rem;
+    }
+}

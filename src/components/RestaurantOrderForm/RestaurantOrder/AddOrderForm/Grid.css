@@ -1,0 +1,43 @@
+.grid {
+    padding: 20px;
+    background-color: #F2F2F2;
+    padding-bottom: 5rem;
+    position: relative;
+}
+
+.grid table {
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.grid table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.grid table th {
+    width: 20%;
+}
+
+.grid table th, .grid table td {
+    height: 1.2rem;
+}
+
+.grid table .last-tr {
+    height: 4rem;
+}
+
+.grid .total {
+    float: right;
+    font-weight: bold;
+    font-size: 32px;
+    margin-right: 3rem;
+    margin-top: 1rem;
+}
+
+.grid .new-order-btn{
+position: absolute;
+bottom: -60px;
+right: 0;
+}

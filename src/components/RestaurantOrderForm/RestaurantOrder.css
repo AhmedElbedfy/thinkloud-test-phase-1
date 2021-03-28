@@ -1,0 +1,11 @@
+.restaurant-form {
+    max-width: 75vw;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .restaurant-form {
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+}

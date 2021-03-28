@@ -1,70 +1,133 @@
-# Getting Started with Create React App
+# Restaurant Order - Thinkloud Test Phase 1 Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project aims to build a form for restaurnt to add ordeers, and to validate the data the user enter to the forms and to show to the user how much the order will cost.
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+## Table of Contents
 
-### `yarn start`
+- [Description](#evaluate-news-article-with-natural-language-processing)
+- [Build Tools](#build-tools)
+- [Installation](#installation)
+- [To Run Project](#to-run-project)
+- [Project Criteria](#project-criteria)
+- [Roles](#Roles)
+- [Requirement](#Requirement)
+- [About Me](#about-me)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Build Tools
 
-### `yarn test`
+- HTML
+- CSS
+- JavaScript
+- React
+- create-react-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br/>
 
-### `yarn build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure Node and npm are installed from the terminal.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+node -v
+npm -v
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Move to the project folder
 
-### `yarn eject`
+```
+cd <project directory>
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Clone the repo
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+git clone <repo>
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Install npm
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+npm install
+```
 
-## Learn More
+4. Start the project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### To Run Project
 
-### Code Splitting
+- cd into your new folder
+- `npm install`
+- `npm run build to generate a dist folder for prod`
+- `npm run start to run the webpack server on port 8080`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Note:** The web page can be accessed with `localhost:8080`
 
-### Analyzing the Bundle Size
+5. Open browser at http://localhost:8081/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br/>
 
-### Making a Progressive Web App
+## Project Criteria
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+this is the criteria of the project according to thinkloud.
 
-### Advanced Configuration
+<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Roles
 
-### Deployment
+1. This Exam contains 2 phases.
+2. These are only the requirement for phase 1.
+3. The requirements of phase 2 will be sent after submitting code of phase 1.
+4. You need to send us an email with your name and your GitHub repo. for your code ,we
+   will not accept any code via any other way just GitHub.
+5. Your repo. should have some description about you and your project
+6. Use only those libs
+   - Angular 1.5.x
+   - Bootstrap
+   - D3js
+   - Jquery
+   - React
+7. You have only 3 days to submit your code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<br/>
 
-### `yarn build` fails to minify
+## Requirement
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. There is no popups in the application
+2. The app does not contain any server side ( ASPX,JSPX,PHP…….etc )
+3. The applications contains 2 pages
+4. Use angular/react route
+5. Main screen
+   - Category is a drop-down list add whatever you think right
+   - Meal is list of meals in the system try to mock it and it will be filtered for the
+     selected category.
+   - Q is a number of ordered meals.
+   - Checkbox for options need to add selected option’s cost to the main price.
+   - Price label to display total meal cost with selected option(s).
+   - Add Button to add that meal to the invoice
+   - Validate the order form
+   - clear all the fields
+   - Add the meal to the grid
+   - Calculate the total price at the end of the page
+   - Add new order will clear all the fields and clear the grid too
+6. Add screen
+   - All fields are required
+   - Category is a drop-down list add whatever you think right try to mock it as you will
+     do in the main screen
+   - Image to select image meal and upload it at submit meal.
+
+<br/>
+
+## About Me
+
+My Name is Ahmed Khaled Elbedfy a Passioned Frontend Developer you Can find more information about me on [Linked In](https://www.linkedin.com/in/ahmedelbedfy/) or [Github](https://github.com/AhmedElbedfy) or [Portfolio](https://ahmed-khaled-portfilo.netlify.app/).
+
+<br/>
+
+---
+
+Made with ❤️️ and javascript
